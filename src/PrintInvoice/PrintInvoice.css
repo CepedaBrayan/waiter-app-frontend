@@ -1,0 +1,56 @@
+.containerPrint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+.form-groupby {
+  margin-top: 15vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-family: montserrat;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.invoices {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+.invoice {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 50vw;
+  border-radius: 20px;
+  margin: 1%;
+  padding: 3%;
+  font-family: montserrat;
+  font-weight: bold;
+  background: linear-gradient(180deg, #ff2056 0%, #a8005b 100%);
+  color: #ffffff;
+}
+
+.buttonPrint {
+  width: 100%;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  border: none;
+  background: black;
+  color: white;
+}

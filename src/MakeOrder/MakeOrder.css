@@ -1,0 +1,83 @@
+.containerOrder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+.form-group {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-family: montserrat;
+  font-weight: bold;
+  padding: 2%;
+}
+
+label {
+  margin: 2%;
+  font-family: montserrat;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border-radius: 20px;
+  border: solid 2px #000000;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.3rem;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.systemMessages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+button {
+  width: 50%;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  border: none;
+  background: black;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
