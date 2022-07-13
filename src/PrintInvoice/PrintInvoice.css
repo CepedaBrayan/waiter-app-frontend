@@ -1,0 +1,9 @@
+.containerPrint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  font-family: montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
