@@ -55,7 +55,7 @@ function PrintInvoice() {
           </p>
           {invoices.map((invoice) => {
             return (
-              <React.Fragment>
+              <React.Fragment key={invoice.id}>
                 <div className="invoice" key={invoice.id}>
                   invoice id: {invoice.id} <br /> {""}
                   client: {invoice.client.name} <br /> {""}
