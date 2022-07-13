@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
+import "./Nav.css";
 import { NavLink } from "react-router-dom";
 
-function App() {
+function Nav() {
   const [active, setActive] = React.useState("left");
   return (
     <React.Fragment>
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default Nav;
