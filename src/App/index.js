@@ -1,15 +1,33 @@
 import React from "react";
 import "./App.css";
+import { NavLink } from "react-router-dom";
 
 function App() {
+  const [active, setActive] = React.useState("left");
   return (
     <React.Fragment>
       <section className="container">
-        <div className="leftSection">
-          <span>Make an order</span>
+        <div className={`leftSection ${active === "left" && "Section-active"}`}>
+          <NavLink
+            to="/MakeOrder"
+            onClick={() => {
+              setActive("left");
+            }}
+          >
+            <span>Make an order</span>
+          </NavLink>
         </div>
-        <div className="rightSection">
-          <span>Print invoice</span>
+        <div
+          className={`rightSection ${active === "right" && "Section-active"}`}
+        >
+          <NavLink
+            to="/PrintInvoice"
+            onClick={() => {
+              setActive("right");
+            }}
+          >
+            <span>Print invoice</span>
+          </NavLink>
         </div>
       </section>
     </React.Fragment>
